@@ -34,6 +34,29 @@ Most code will be loop Langraph we have this 3 new features.
 
 aimed at agent and multi-agent flows.
 
+Node : LLM or functions
+Edges : connected
+Conditional edges: decisions
+
+* Agent state it's mean you can resume at any state
+
+![image](https://github.com/user-attachments/assets/a1db502f-931c-4a7c-8633-8ad661224d8a)
+
+For the simple agentstate it's operator add which is not overrides the extisting values.
+
+Complex state : agent action and agent observation throughout the graph.
+
+![image](https://github.com/user-attachments/assets/2858cfa4-5ef5-428f-afb8-716163b098fd)
+
+from langchain_core.messages import AnyMessage, SystemMessage, HumanMessage, ToolMessage This is the standard messages
+
+
+
+
+
+
+
+
 
 
 
